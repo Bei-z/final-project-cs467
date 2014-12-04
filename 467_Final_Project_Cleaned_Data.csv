@@ -1,1 +1,292 @@
-Will Return,Salary,Company Size,City,Gender,lat,lng3,3,4,"Arlington, MA",Female,42.415393,-71.1564731,5,7,"Bellevue, WA",Male,47.610377,-122.2006793,2,7,"Bellevue, WA",Female,47.610377,-122.2006793,3,7,"Bellevue, WA",Female,47.610377,-122.2006793,5,7,"Bellevue, WA",Male,47.610377,-122.2006793,5,7,"Bellevue, WA",Male,47.610377,-122.2006794,5,7,"Bellevue, WA",Male,47.610377,-122.2006794,5,7,"Bellevue, WA",Male,47.610377,-122.2006795,5,7,"Bellevue, WA",Female,47.610377,-122.2006795,5,7,"Bellevue, WA",Male,47.610377,-122.2006795,5,7,"Bellevue, WA",Male,47.610377,-122.2006794,3,2,"Berkeley, CA",Not Reported,37.871593,-122.2727475,3,7,"Berkeley, CA",Not Reported,37.871593,-122.2727473,2,7,"Bloomington, IL",Male,40.484203,-88.9936872,1,5,"Boston, MA",Female,42.358486,-71.0600972,3,2,"Boston, MA",Male,42.358486,-71.0600973,0,3,"Boston, MA",Female,42.358486,-71.0600973,2,3,"Boston, MA",Male,42.358486,-71.0600973,2,3,"Boston, MA",Male,42.358486,-71.0600973,3,3,"Boston, MA",Male,42.358486,-71.0600973,3,2,"Boston, MA",Female,42.358486,-71.0600973,3,7,"Boston, MA",Male,42.358486,-71.0600974,2,5,"Boston, MA",Female,42.358486,-71.0600974,2,5,"Boston, MA",Not Reported,42.358486,-71.0600974,2,1,"Boston, MA",Male,42.358486,-71.0600974,2,1,"Boston, MA",Not Reported,42.358486,-71.0600974,2,3,"Boston, MA",Male,42.358486,-71.0600974,1,2,"Boston, MA",Male,42.358486,-71.0600975,3,7,"Boston, MA",Male,42.358486,-71.0600974,3,3,"Boston, MA ",Male,42.358486,-71.0600972,1,7,"Cambridge, MA",Female,42.373616,-71.1097343,3,4,"Cambridge, MA",Female,42.373616,-71.1097343,3,4,"Cambridge, MA",Female,42.373616,-71.1097343,3,4,"Cambridge, MA",Male,42.373616,-71.1097343,3,4,"Cambridge, MA",Male,42.373616,-71.1097343,3,2,"Cambridge, MA",Male,42.373616,-71.1097344,2,4,"Cambridge, MA",Female,42.373616,-71.1097344,3,4,"Cambridge, MA",Male,42.373616,-71.1097345,3,3,"Cambridge, MA",Male,42.373616,-71.1097345,3,4,"Cambridge, MA",Not Reported,42.373616,-71.1097345,2,6,Canada,Male,56.130366,-106.3467713,3,5,"Chicago, IL",Not Reported,41.878114,-87.6297983,3,5,"Chicago, IL",Not Reported,41.878114,-87.6297983,2,4,"Chicago, IL",Not Reported,41.878114,-87.6297984,3,5,"Chicago, IL",Not Reported,41.878114,-87.6297983,4,7,"Cupertino, CA",Male,37.322998,-122.0321824,5,7,"Cupertino, CA",Male,37.322998,-122.0321825,4,3,"Dublin, Ireland",Male,53.349805,-6.260315,2,2,"East Palo Alto, CA",Not Reported,37.468827,-122.1410754,3,7,"Everett, WA",Male,47.978985,-122.2020794,2,1,"Fort Collins, CO",Female,40.58526,-105.0844233,3,7,"Foster City, CA",Male,37.558546,-122.2710794,1,1,"Galesville, MD",Male,38.843171,-76.543573,2,6,"Hood River, OR",Male,45.705397,-121.5214624,3,5,"Kent, WA",Female,47.380933,-122.2348431,0,1,"London, UK",Male,51.507351,-0.1277583,2,7,"Los Angeles, CA",Male,34.052234,-118.2436853,2,4,"Los Gatos, CA",Not Reported,37.235808,-121.9623755,2,7,"Manahattan, NY",Not Reported,40.790278,-73.9597224,3,4,"Manchester, CT",Male,41.77593,-72.5215015,3,6,"Medway, MA",Female,42.141764,-71.3967261,4,7,"Menlo Park, CA",Male,37.45296,-122.1817252,5,7,"Menlo Park, CA",Male,37.45296,-122.1817253,4,7,"Menlo Park, CA",Female,37.45296,-122.1817253,4,7,"Menlo Park, CA",Male,37.45296,-122.1817253,4,7,"Menlo Park, CA",Male,37.45296,-122.1817253,5,7,"Menlo Park, CA",Not Reported,37.45296,-122.1817254,4,7,"Menlo Park, CA",Female,37.45296,-122.1817254,4,7,"Menlo Park, CA",Female,37.45296,-122.1817254,4,7,"Menlo Park, CA",Male,37.45296,-122.1817254,4,7,"Menlo Park, CA",Male,37.45296,-122.1817254,4,7,"Menlo Park, CA",Male,37.45296,-122.1817254,4,7,"Menlo Park, CA",Male,37.45296,-122.1817254,4,7,"Menlo Park, CA",Not Reported,37.45296,-122.1817254,4,7,"Menlo Park, CA",Not Reported,37.45296,-122.1817254,4,7,"Menlo Park, CA",Not Reported,37.45296,-122.1817254,5,7,"Menlo Park, CA",Male,37.45296,-122.1817254,5,7,"Menlo Park, CA",Male,37.45296,-122.1817255,0,3,"Menlo Park, CA",Female,37.45296,-122.1817255,6,6,"Menlo Park, CA",Female,37.45296,-122.1817255,3,7,"Menlo Park, CA",Male,37.45296,-122.1817255,3,7,"Menlo Park, CA",Male,37.45296,-122.1817255,3,7,"Menlo Park, CA",Male,37.45296,-122.1817255,4,7,"Menlo Park, CA",Female,37.45296,-122.1817255,4,7,"Menlo Park, CA",Male,37.45296,-122.1817255,4,7,"Menlo Park, CA",Male,37.45296,-122.1817255,4,7,"Menlo Park, CA",Male,37.45296,-122.1817255,4,7,"Menlo Park, CA",Male,37.45296,-122.1817255,4,7,"Menlo Park, CA",Male,37.45296,-122.1817255,4,7,"Menlo Park, CA",Male,37.45296,-122.1817255,5,7,"Menlo Park, CA",Male,37.45296,-122.1817255,4,7,"Monlo Park, CA",Male,37.45296,-122.1817253,3,7,"Monterey Park, CA",Other,34.062511,-118.1228484,4,7,"Monterey Park, CA",Male,34.062511,-118.1228484,5,7,"Monterey Park, CA",Male,34.062511,-118.1228484,6,7,"Monterey Park, CA",Male,34.062511,-118.1228485,2,7,"Monterey Park, CA",Male,34.062511,-118.1228481,1,7,"Mountain View, CA",Male,37.386052,-122.0838512,3,3,"Mountain View, CA",Male,37.386052,-122.0838512,5,3,"Mountain View, CA",Not Reported,37.386052,-122.0838512,3,7,"Mountain View, CA",Male,37.386052,-122.0838512,4,7,"Mountain View, CA",Male,37.386052,-122.0838513,2,7,"Mountain View, CA",Female,37.386052,-122.0838513,2,7,"Mountain View, CA",Female,37.386052,-122.0838513,5,7,"Mountain View, CA",Male,37.386052,-122.0838514,4,2,"Mountain View, CA",Female,37.386052,-122.0838514,4,7,"Mountain View, CA",Not Reported,37.386052,-122.0838514,5,7,"Mountain View, CA",Not Reported,37.386052,-122.0838515,5,5,"Mountain View, CA",Male,37.386052,-122.0838515,3,7,"Mountain View, CA",Female,37.386052,-122.0838515,4,7,"Mountain View, CA",Not Reported,37.386052,-122.0838515,4,7,"Mountain View, CA",Not Reported,37.386052,-122.0838515,4,7,"Mountain View, CA",Not Reported,37.386052,-122.0838515,5,5,"Mountainview, CA",Female,37.386052,-122.0838511,2,3,"Needham, MA",Female,42.280929,-71.2377554,1,3,"Needham, MA",Male,42.280929,-71.2377554,1,4,"Needham, MA",Female,42.280929,-71.2377554,1,2,"Needham, MA",Not Reported,42.280929,-71.2377555,1,1,"Needham, MA",Not Reported,42.280929,-71.2377555,1,2,"Needham, MA",Female,42.280929,-71.2377555,1,7,"Needham, MA",Not Reported,42.280929,-71.2377554,4,7,"New York, NY",Not Reported,40.712784,-74.0059412,2,5,"Newton, MA",Female,42.337041,-71.2092213,2,3,"Newton, MA",Female,42.337041,-71.2092213,2,3,"Newton, MA",Male,42.337041,-71.2092213,4,7,"Oakland, CA",Not Reported,37.804364,-122.2711144,3,6,"Palo Alto, CA",Male,37.441883,-122.1430194,3,7,"Palo Alto, CA",Male,37.441883,-122.1430194,4,7,"Palo Alto, CA",Male,37.441883,-122.1430195,2,7,"Palo Alto, CA",Not Reported,37.441883,-122.1430195,3,7,"Palo Alto, CA",Male,37.441883,-122.1430195,4,7,"Palo Alto, CA",Male,37.441883,-122.1430195,5,7,"Palo Alto, CA",Male,37.441883,-122.1430195,5,7,"Palo Alto, CA",Not Reported,37.441883,-122.1430195,3,3,"Pittsburgh, PA",Not Reported,40.440625,-79.9958865,4,7,"Pleasanton, CA",Male,37.662431,-121.8746794,2,3,"Providence, RI",Female,41.823989,-71.4128343,2,1,"Raleigh, NC",Male,35.77959,-78.6381791,4,7,"Redmond, WA",Male,47.673988,-122.1215122,4,7,"Redmond, WA",Male,47.673988,-122.1215122,5,7,"Redmond, WA",Male,47.673988,-122.1215122,5,7,"Redmond, WA",Male,47.673988,-122.1215122,5,7,"Redmond, WA",Male,47.673988,-122.1215122,6,7,"Redmond, WA",Male,47.673988,-122.1215123,4,5,"Redmond, WA",Female,47.673988,-122.1215123,3,7,"Redmond, WA",Female,47.673988,-122.1215123,3,7,"Redmond, WA",Female,47.673988,-122.1215123,4,7,"Redmond, WA",Male,47.673988,-122.1215123,4,7,"Redmond, WA",Male,47.673988,-122.1215123,5,7,"Redmond, WA",Male,47.673988,-122.1215123,5,7,"Redmond, WA",Male,47.673988,-122.1215123,5,7,"Redmond, WA",Male,47.673988,-122.1215123,6,7,"Redmond, WA",Male,47.673988,-122.1215124,3,7,"Redmond, WA",Female,47.673988,-122.1215124,3,7,"Redmond, WA",Female,47.673988,-122.1215124,4,7,"Redmond, WA",Female,47.673988,-122.1215124,4,7,"Redmond, WA",Male,47.673988,-122.1215124,4,7,"Redmond, WA",Male,47.673988,-122.1215124,4,7,"Redmond, WA",Male,47.673988,-122.1215124,4,7,"Redmond, WA",Male,47.673988,-122.1215124,5,7,"Redmond, WA",Male,47.673988,-122.1215124,5,7,"Redmond, WA",Male,47.673988,-122.1215124,5,7,"Redmond, WA",Male,47.673988,-122.1215124,5,7,"Redmond, WA",Male,47.673988,-122.1215124,5,7,"Redmond, WA",Male,47.673988,-122.1215124,5,7,"Redmond, WA",Male,47.673988,-122.1215124,5,7,"Redmond, WA",Male,47.673988,-122.1215124,5,7,"Redmond, WA",Not Reported,47.673988,-122.1215125,3,7,"Redmond, WA",Female,47.673988,-122.1215125,4,7,"Redmond, WA",Female,47.673988,-122.1215125,4,7,"Redmond, WA",Male,47.673988,-122.1215125,5,7,"Redmond, WA",Female,47.673988,-122.1215125,5,7,"Redmond, WA",Male,47.673988,-122.1215125,5,7,"Redmond, WA",Male,47.673988,-122.1215125,5,7,"Redmond, WA",Male,47.673988,-122.1215123,3,7,"Redwood City, CA",Not Reported,37.485215,-122.2363554,2,6,"Redwood City, CA",Male,37.485215,-122.2363555,4,7,"Redwood City, CA",Not Reported,37.485215,-122.2363553,2,7,"Renton, WA",Male,47.482878,-122.2170665,2,4,"San fernando, CA",Female,36.471865,-6.1965951,3,1,"San Francisco, CA",Not Reported,37.774929,-122.4194162,4,7,"San Francisco, CA",Female,37.774929,-122.4194163,4,5,"San Francisco, CA",Female,37.774929,-122.4194163,0,1,"San Francisco, CA",Male,37.774929,-122.4194163,2,3,"San Francisco, CA",Male,37.774929,-122.4194163,2,7,"San Francisco, CA",Female,37.774929,-122.4194163,4,7,"San Francisco, CA",Female,37.774929,-122.4194163,4,7,"San Francisco, CA",Not Reported,37.774929,-122.4194164,2,5,"San Francisco, CA",Not Reported,37.774929,-122.4194164,4,5,"San Francisco, CA",Female,37.774929,-122.4194164,4,5,"San Francisco, CA",Not Reported,37.774929,-122.4194164,5,5,"San Francisco, CA",Male,37.774929,-122.4194164,6,5,"San Francisco, CA",Male,37.774929,-122.4194164,0,3,"San Francisco, CA",Male,37.774929,-122.4194164,3,3,"San Francisco, CA",Male,37.774929,-122.4194164,6,6,"San Francisco, CA",Male,37.774929,-122.4194164,5,4,"San Francisco, CA",Male,37.774929,-122.4194164,4,2,"San Francisco, CA",Male,37.774929,-122.4194164,4,7,"San Francisco, CA",Female,37.774929,-122.4194164,4,7,"San Francisco, CA",Male,37.774929,-122.4194164,4,7,"San Francisco, CA",Not Reported,37.774929,-122.4194164,5,7,"San Francisco, CA",Female,37.774929,-122.4194164,6,7,"San Francisco, CA",Not Reported,37.774929,-122.4194165,3,6,"San Francisco, CA",Female,37.774929,-122.4194165,3,6,"San Francisco, CA",Male,37.774929,-122.4194165,5,6,"San Francisco, CA",Female,37.774929,-122.4194165,2,4,"San Francisco, CA",Not Reported,37.774929,-122.4194165,4,4,"San Francisco, CA",Male,37.774929,-122.4194165,5,4,"San Francisco, CA",Female,37.774929,-122.4194165,2,7,"San Francisco, CA",Male,37.774929,-122.4194165,3,7,"San Francisco, CA",Not Reported,37.774929,-122.4194165,4,7,"San Francisco, CA",Male,37.774929,-122.4194165,4,7,"San Francisco, CA",Male,37.774929,-122.4194165,4,7,"San Francisco, CA",Male,37.774929,-122.4194165,4,7,"San Francisco, CA",Not Reported,37.774929,-122.4194165,5,7,"San Francisco, CA",Not Reported,37.774929,-122.4194165,6,7,"San Francisco, CA",Male,37.774929,-122.4194161,3,7,"San Jose, CA",Not Reported,37.339386,-121.8949551,3,7,"San Jose, CA",Not Reported,37.339386,-121.8949551,5,7,"San Jose, CA",Female,37.339386,-121.8949553,3,1,"San Jose, CA",Male,37.339386,-121.8949553,3,7,"San Jose, CA",Not Reported,37.339386,-121.8949554,2,7,"San Jose, CA",Not Reported,37.339386,-121.8949554,3,7,"San Jose, CA",Not Reported,37.339386,-121.8949555,3,7,"San Jose, CA",Female,37.339386,-121.8949555,3,7,"San Jose, CA",Male,37.339386,-121.8949552,4,5,"San Mateo, CA",Not Reported,37.562992,-122.3255254,3,5,"San Mateo, CA",Male,37.562992,-122.3255252,3,7,"Santa Clara, CA",Male,37.354108,-121.9552363,4,7,"Santa Clara, CA",Female,37.354108,-121.9552363,4,7,"Santa Clara, CA",Male,37.354108,-121.9552364,2,5,"Santa Clara, CA",Not Reported,37.354108,-121.9552364,4,7,"Santa Clara, CA",Male,37.354108,-121.9552365,2,1,"Santa Monica, CA",Male,34.019454,-118.4911915,3,7,"Santa Monica, CA",Male,34.019454,-118.4911912,2,7,"Seattle, WA",Male,47.606209,-122.3320712,3,7,"Seattle, WA",Female,47.606209,-122.3320712,4,7,"Seattle, WA",Male,47.606209,-122.3320712,4,7,"Seattle, WA",Male,47.606209,-122.3320712,4,7,"Seattle, WA",Male,47.606209,-122.3320712,5,7,"Seattle, WA",Female,47.606209,-122.3320712,5,7,"Seattle, WA",Male,47.606209,-122.3320712,5,7,"Seattle, WA",Male,47.606209,-122.3320713,3,7,"Seattle, WA",Female,47.606209,-122.3320713,3,7,"Seattle, WA",Female,47.606209,-122.3320713,4,7,"Seattle, WA",Female,47.606209,-122.3320713,4,7,"Seattle, WA",Female,47.606209,-122.3320713,4,7,"Seattle, WA",Male,47.606209,-122.3320713,4,7,"Seattle, WA",Male,47.606209,-122.3320713,4,7,"Seattle, WA",Not Reported,47.606209,-122.3320713,5,7,"Seattle, WA",Male,47.606209,-122.3320713,5,7,"Seattle, WA",Male,47.606209,-122.3320714,2,3,"Seattle, WA",Male,47.606209,-122.3320714,3,7,"Seattle, WA",Female,47.606209,-122.3320714,3,7,"Seattle, WA",Male,47.606209,-122.3320714,3,7,"Seattle, WA",Male,47.606209,-122.3320714,3,7,"Seattle, WA",Male,47.606209,-122.3320714,4,7,"Seattle, WA",Female,47.606209,-122.3320714,4,7,"Seattle, WA",Male,47.606209,-122.3320714,4,7,"Seattle, WA",Male,47.606209,-122.3320714,4,7,"Seattle, WA",Male,47.606209,-122.3320714,5,7,"Seattle, WA",Female,47.606209,-122.3320714,5,7,"Seattle, WA",Male,47.606209,-122.3320715,4,2,"Seattle, WA",Male,47.606209,-122.3320715,0,7,"Seattle, WA",Female,47.606209,-122.3320715,3,7,"Seattle, WA",Male,47.606209,-122.3320715,4,7,"Seattle, WA",Male,47.606209,-122.3320715,4,7,"Seattle, WA",Not Reported,47.606209,-122.3320715,5,7,"Seattle, WA",Male,47.606209,-122.3320715,5,7,"Seattle, WA",Male,47.606209,-122.3320715,5,7,"Seattle, WA",Male,47.606209,-122.3320715,5,7,"Seattle, WA",Male,47.606209,-122.3320715,5,7,"Seattle, WA",Male,47.606209,-122.3320714,4,7,"Seattle, WA",Male,47.606209,-122.3320713,3,2,"Somerville, MA",Female,42.387597,-71.0994974,2,1,"Somerville, MA",Male,42.387597,-71.0994974,2,2,"Somerville, MA",Male,42.387597,-71.0994975,2,2,"Stanford, CA",Not Reported,37.424106,-122.1660762,5,7,"Sunnyvale, CA",Male,37.36883,-122.036354,3,7,"Sunnyvale, CA",Not Reported,37.36883,-122.036354,4,7,"Sunnyvale, CA",Not Reported,37.36883,-122.036355,3,7,"Sunnyvale, CA",Female,37.36883,-122.036355,4,7,"Sunnyvale, CA",Not Reported,37.36883,-122.036355,5,7,"Sunnyvale, CA",Male,37.36883,-122.036355,5,7,"Sunnyvale, CA",Male,37.36883,-122.036355,5,7,"Sunnyvale, CA",Male,37.36883,-122.036355,1,3,"Vashon, WA",Male,47.44732,-122.459854,2,7,"Westford, MA",Female,42.579258,-71.4378414,2,7,"Westford, MA",Female,42.579258,-71.4378415,3,7,"Westford, MA",Male,42.579258,-71.4378415,3,7,"Westford, MA",Male,42.579258,-71.437841
+Will_Return,salary,company Size,City,Gender,lat,lng
+3,3,4,"Arlington, MA",Female,42.415393,-71.156473
+1,5,7,"Bellevue, WA",Male,47.610377,-122.200679
+3,2,7,"Bellevue, WA",Female,47.610377,-122.200679
+3,3,7,"Bellevue, WA",Female,47.610377,-122.200679
+3,5,7,"Bellevue, WA",Male,47.610377,-122.200679
+3,5,7,"Bellevue, WA",Male,47.610377,-122.200679
+4,5,7,"Bellevue, WA",Male,47.610377,-122.200679
+4,5,7,"Bellevue, WA",Male,47.610377,-122.200679
+5,5,7,"Bellevue, WA",Female,47.610377,-122.200679
+5,5,7,"Bellevue, WA",Male,47.610377,-122.200679
+5,5,7,"Bellevue, WA",Male,47.610377,-122.200679
+4,3,2,"Berkeley, CA",Not Reported,37.871593,-122.272747
+5,3,7,"Berkeley, CA",Not Reported,37.871593,-122.272747
+3,2,7,"Bloomington, IL",Male,40.484203,-88.993687
+2,1,5,"Boston, MA",Female,42.358486,-71.060097
+2,3,2,"Boston, MA",Male,42.358486,-71.060097
+3,0,3,"Boston, MA",Female,42.358486,-71.060097
+3,2,3,"Boston, MA",Male,42.358486,-71.060097
+3,2,3,"Boston, MA",Male,42.358486,-71.060097
+3,3,3,"Boston, MA",Male,42.358486,-71.060097
+3,3,2,"Boston, MA",Female,42.358486,-71.060097
+3,3,7,"Boston, MA",Male,42.358486,-71.060097
+4,2,5,"Boston, MA",Female,42.358486,-71.060097
+4,2,5,"Boston, MA",Not Reported,42.358486,-71.060097
+4,2,1,"Boston, MA",Male,42.358486,-71.060097
+4,2,1,"Boston, MA",Not Reported,42.358486,-71.060097
+4,2,3,"Boston, MA",Male,42.358486,-71.060097
+4,1,2,"Boston, MA",Male,42.358486,-71.060097
+5,3,7,"Boston, MA",Male,42.358486,-71.060097
+4,3,3,"Boston, MA ",Male,42.358486,-71.060097
+2,1,7,"Cambridge, MA",Female,42.373616,-71.109734
+3,3,4,"Cambridge, MA",Female,42.373616,-71.109734
+3,3,4,"Cambridge, MA",Female,42.373616,-71.109734
+3,3,4,"Cambridge, MA",Male,42.373616,-71.109734
+3,3,4,"Cambridge, MA",Male,42.373616,-71.109734
+3,3,2,"Cambridge, MA",Male,42.373616,-71.109734
+4,2,4,"Cambridge, MA",Female,42.373616,-71.109734
+4,3,4,"Cambridge, MA",Male,42.373616,-71.109734
+5,3,3,"Cambridge, MA",Male,42.373616,-71.109734
+5,3,4,"Cambridge, MA",Not Reported,42.373616,-71.109734
+5,2,6,Canada,Male,56.130366,-106.346771
+3,3,5,"Chicago, IL",Not Reported,41.878114,-87.629798
+3,3,5,"Chicago, IL",Not Reported,41.878114,-87.629798
+3,2,4,"Chicago, IL",Not Reported,41.878114,-87.629798
+4,3,5,"Chicago, IL",Not Reported,41.878114,-87.629798
+3,4,7,"Cupertino, CA",Male,37.322998,-122.032182
+4,5,7,"Cupertino, CA",Male,37.322998,-122.032182
+5,4,3,"Dublin, Ireland",Male,53.349805,-6.26031
+5,2,2,"East Palo Alto, CA",Not Reported,37.468827,-122.141075
+4,3,7,"Everett, WA",Male,47.978985,-122.202079
+4,2,1,"Fort Collins, CO",Female,40.58526,-105.084423
+3,3,7,"Foster City, CA",Male,37.558546,-122.271079
+4,1,1,"Galesville, MD",Male,38.843171,-76.54357
+3,2,6,"Hood River, OR",Male,45.705397,-121.521462
+4,3,5,"Kent, WA",Female,47.380933,-122.234843
+1,0,1,"London, UK",Male,51.507351,-0.127758
+3,2,7,"Los Angeles, CA",Male,34.052234,-118.243685
+3,2,4,"Los Gatos, CA",Not Reported,37.235808,-121.962375
+5,2,7,"Manahattan, NY",Not Reported,40.790278,-73.959722
+4,3,4,"Manchester, CT",Male,41.77593,-72.521501
+5,3,6,"Medway, MA",Female,42.141764,-71.396726
+1,4,7,"Menlo Park, CA",Male,37.45296,-122.181725
+2,5,7,"Menlo Park, CA",Male,37.45296,-122.181725
+3,4,7,"Menlo Park, CA",Female,37.45296,-122.181725
+3,4,7,"Menlo Park, CA",Male,37.45296,-122.181725
+3,4,7,"Menlo Park, CA",Male,37.45296,-122.181725
+3,5,7,"Menlo Park, CA",Not Reported,37.45296,-122.181725
+4,4,7,"Menlo Park, CA",Female,37.45296,-122.181725
+4,4,7,"Menlo Park, CA",Female,37.45296,-122.181725
+4,4,7,"Menlo Park, CA",Male,37.45296,-122.181725
+4,4,7,"Menlo Park, CA",Male,37.45296,-122.181725
+4,4,7,"Menlo Park, CA",Male,37.45296,-122.181725
+4,4,7,"Menlo Park, CA",Male,37.45296,-122.181725
+4,4,7,"Menlo Park, CA",Not Reported,37.45296,-122.181725
+4,4,7,"Menlo Park, CA",Not Reported,37.45296,-122.181725
+4,4,7,"Menlo Park, CA",Not Reported,37.45296,-122.181725
+4,5,7,"Menlo Park, CA",Male,37.45296,-122.181725
+4,5,7,"Menlo Park, CA",Male,37.45296,-122.181725
+5,0,3,"Menlo Park, CA",Female,37.45296,-122.181725
+5,6,6,"Menlo Park, CA",Female,37.45296,-122.181725
+5,3,7,"Menlo Park, CA",Male,37.45296,-122.181725
+5,3,7,"Menlo Park, CA",Male,37.45296,-122.181725
+5,3,7,"Menlo Park, CA",Male,37.45296,-122.181725
+5,4,7,"Menlo Park, CA",Female,37.45296,-122.181725
+5,4,7,"Menlo Park, CA",Male,37.45296,-122.181725
+5,4,7,"Menlo Park, CA",Male,37.45296,-122.181725
+5,4,7,"Menlo Park, CA",Male,37.45296,-122.181725
+5,4,7,"Menlo Park, CA",Male,37.45296,-122.181725
+5,4,7,"Menlo Park, CA",Male,37.45296,-122.181725
+5,4,7,"Menlo Park, CA",Male,37.45296,-122.181725
+5,5,7,"Menlo Park, CA",Male,37.45296,-122.181725
+5,4,7,"Monlo Park, CA",Male,37.45296,-122.181725
+3,3,7,"Monterey Park, CA",Other,34.062511,-118.122848
+4,4,7,"Monterey Park, CA",Male,34.062511,-118.122848
+4,5,7,"Monterey Park, CA",Male,34.062511,-118.122848
+4,6,7,"Monterey Park, CA",Male,34.062511,-118.122848
+5,2,7,"Monterey Park, CA",Male,34.062511,-118.122848
+1,1,7,"Mountain View, CA",Male,37.386052,-122.083851
+2,3,3,"Mountain View, CA",Male,37.386052,-122.083851
+2,5,3,"Mountain View, CA",Not Reported,37.386052,-122.083851
+2,3,7,"Mountain View, CA",Male,37.386052,-122.083851
+2,4,7,"Mountain View, CA",Male,37.386052,-122.083851
+3,2,7,"Mountain View, CA",Female,37.386052,-122.083851
+3,2,7,"Mountain View, CA",Female,37.386052,-122.083851
+3,5,7,"Mountain View, CA",Male,37.386052,-122.083851
+4,4,2,"Mountain View, CA",Female,37.386052,-122.083851
+4,4,7,"Mountain View, CA",Not Reported,37.386052,-122.083851
+4,5,7,"Mountain View, CA",Not Reported,37.386052,-122.083851
+5,5,5,"Mountain View, CA",Male,37.386052,-122.083851
+5,3,7,"Mountain View, CA",Female,37.386052,-122.083851
+5,4,7,"Mountain View, CA",Not Reported,37.386052,-122.083851
+5,4,7,"Mountain View, CA",Not Reported,37.386052,-122.083851
+5,4,7,"Mountain View, CA",Not Reported,37.386052,-122.083851
+5,5,5,"Mountainview, CA",Female,37.386052,-122.083851
+1,2,3,"Needham, MA",Female,42.280929,-71.237755
+4,1,3,"Needham, MA",Male,42.280929,-71.237755
+4,1,4,"Needham, MA",Female,42.280929,-71.237755
+4,1,2,"Needham, MA",Not Reported,42.280929,-71.237755
+5,1,1,"Needham, MA",Not Reported,42.280929,-71.237755
+5,1,2,"Needham, MA",Female,42.280929,-71.237755
+5,1,7,"Needham, MA",Not Reported,42.280929,-71.237755
+4,4,7,"New York, NY",Not Reported,40.712784,-74.005941
+2,2,5,"Newton, MA",Female,42.337041,-71.209221
+3,2,3,"Newton, MA",Female,42.337041,-71.209221
+3,2,3,"Newton, MA",Male,42.337041,-71.209221
+3,4,7,"Oakland, CA",Not Reported,37.804364,-122.271114
+4,3,6,"Palo Alto, CA",Male,37.441883,-122.143019
+4,3,7,"Palo Alto, CA",Male,37.441883,-122.143019
+4,4,7,"Palo Alto, CA",Male,37.441883,-122.143019
+5,2,7,"Palo Alto, CA",Not Reported,37.441883,-122.143019
+5,3,7,"Palo Alto, CA",Male,37.441883,-122.143019
+5,4,7,"Palo Alto, CA",Male,37.441883,-122.143019
+5,5,7,"Palo Alto, CA",Male,37.441883,-122.143019
+5,5,7,"Palo Alto, CA",Not Reported,37.441883,-122.143019
+5,3,3,"Pittsburgh, PA",Not Reported,40.440625,-79.995886
+5,4,7,"Pleasanton, CA",Male,37.662431,-121.874679
+4,2,3,"Providence, RI",Female,41.823989,-71.412834
+3,2,1,"Raleigh, NC",Male,35.77959,-78.638179
+1,4,7,"Redmond, WA",Male,47.673988,-122.121512
+2,4,7,"Redmond, WA",Male,47.673988,-122.121512
+2,5,7,"Redmond, WA",Male,47.673988,-122.121512
+2,5,7,"Redmond, WA",Male,47.673988,-122.121512
+2,5,7,"Redmond, WA",Male,47.673988,-122.121512
+2,6,7,"Redmond, WA",Male,47.673988,-122.121512
+3,4,5,"Redmond, WA",Female,47.673988,-122.121512
+3,3,7,"Redmond, WA",Female,47.673988,-122.121512
+3,3,7,"Redmond, WA",Female,47.673988,-122.121512
+3,4,7,"Redmond, WA",Male,47.673988,-122.121512
+3,4,7,"Redmond, WA",Male,47.673988,-122.121512
+3,5,7,"Redmond, WA",Male,47.673988,-122.121512
+3,5,7,"Redmond, WA",Male,47.673988,-122.121512
+3,5,7,"Redmond, WA",Male,47.673988,-122.121512
+3,6,7,"Redmond, WA",Male,47.673988,-122.121512
+4,3,7,"Redmond, WA",Female,47.673988,-122.121512
+4,3,7,"Redmond, WA",Female,47.673988,-122.121512
+4,4,7,"Redmond, WA",Female,47.673988,-122.121512
+4,4,7,"Redmond, WA",Male,47.673988,-122.121512
+4,4,7,"Redmond, WA",Male,47.673988,-122.121512
+4,4,7,"Redmond, WA",Male,47.673988,-122.121512
+4,4,7,"Redmond, WA",Male,47.673988,-122.121512
+4,5,7,"Redmond, WA",Male,47.673988,-122.121512
+4,5,7,"Redmond, WA",Male,47.673988,-122.121512
+4,5,7,"Redmond, WA",Male,47.673988,-122.121512
+4,5,7,"Redmond, WA",Male,47.673988,-122.121512
+4,5,7,"Redmond, WA",Male,47.673988,-122.121512
+4,5,7,"Redmond, WA",Male,47.673988,-122.121512
+4,5,7,"Redmond, WA",Male,47.673988,-122.121512
+4,5,7,"Redmond, WA",Not Reported,47.673988,-122.121512
+5,3,7,"Redmond, WA",Female,47.673988,-122.121512
+5,4,7,"Redmond, WA",Female,47.673988,-122.121512
+5,4,7,"Redmond, WA",Male,47.673988,-122.121512
+5,5,7,"Redmond, WA",Female,47.673988,-122.121512
+5,5,7,"Redmond, WA",Male,47.673988,-122.121512
+5,5,7,"Redmond, WA",Male,47.673988,-122.121512
+5,5,7,"Redmond, WA",Male,47.673988,-122.121512
+3,3,7,"Redwood City, CA",Not Reported,37.485215,-122.236355
+4,2,6,"Redwood City, CA",Male,37.485215,-122.236355
+5,4,7,"Redwood City, CA",Not Reported,37.485215,-122.236355
+3,2,7,"Renton, WA",Male,47.482878,-122.217066
+5,2,4,"San fernando, CA",Female,36.471865,-6.196595
+1,3,1,"San Francisco, CA",Not Reported,37.774929,-122.419416
+2,4,7,"San Francisco, CA",Female,37.774929,-122.419416
+3,4,5,"San Francisco, CA",Female,37.774929,-122.419416
+3,0,1,"San Francisco, CA",Male,37.774929,-122.419416
+3,2,3,"San Francisco, CA",Male,37.774929,-122.419416
+3,2,7,"San Francisco, CA",Female,37.774929,-122.419416
+3,4,7,"San Francisco, CA",Female,37.774929,-122.419416
+3,4,7,"San Francisco, CA",Not Reported,37.774929,-122.419416
+4,2,5,"San Francisco, CA",Not Reported,37.774929,-122.419416
+4,4,5,"San Francisco, CA",Female,37.774929,-122.419416
+4,4,5,"San Francisco, CA",Not Reported,37.774929,-122.419416
+4,5,5,"San Francisco, CA",Male,37.774929,-122.419416
+4,6,5,"San Francisco, CA",Male,37.774929,-122.419416
+4,0,3,"San Francisco, CA",Male,37.774929,-122.419416
+4,3,3,"San Francisco, CA",Male,37.774929,-122.419416
+4,6,6,"San Francisco, CA",Male,37.774929,-122.419416
+4,5,4,"San Francisco, CA",Male,37.774929,-122.419416
+4,4,2,"San Francisco, CA",Male,37.774929,-122.419416
+4,4,7,"San Francisco, CA",Female,37.774929,-122.419416
+4,4,7,"San Francisco, CA",Male,37.774929,-122.419416
+4,4,7,"San Francisco, CA",Not Reported,37.774929,-122.419416
+4,5,7,"San Francisco, CA",Female,37.774929,-122.419416
+4,6,7,"San Francisco, CA",Not Reported,37.774929,-122.419416
+5,3,6,"San Francisco, CA",Female,37.774929,-122.419416
+5,3,6,"San Francisco, CA",Male,37.774929,-122.419416
+5,5,6,"San Francisco, CA",Female,37.774929,-122.419416
+5,2,4,"San Francisco, CA",Not Reported,37.774929,-122.419416
+5,4,4,"San Francisco, CA",Male,37.774929,-122.419416
+5,5,4,"San Francisco, CA",Female,37.774929,-122.419416
+5,2,7,"San Francisco, CA",Male,37.774929,-122.419416
+5,3,7,"San Francisco, CA",Not Reported,37.774929,-122.419416
+5,4,7,"San Francisco, CA",Male,37.774929,-122.419416
+5,4,7,"San Francisco, CA",Male,37.774929,-122.419416
+5,4,7,"San Francisco, CA",Male,37.774929,-122.419416
+5,4,7,"San Francisco, CA",Not Reported,37.774929,-122.419416
+5,5,7,"San Francisco, CA",Not Reported,37.774929,-122.419416
+5,6,7,"San Francisco, CA",Male,37.774929,-122.419416
+1,3,7,"San Jose, CA",Not Reported,37.339386,-121.894955
+1,3,7,"San Jose, CA",Not Reported,37.339386,-121.894955
+1,5,7,"San Jose, CA",Female,37.339386,-121.894955
+3,3,1,"San Jose, CA",Male,37.339386,-121.894955
+3,3,7,"San Jose, CA",Not Reported,37.339386,-121.894955
+4,2,7,"San Jose, CA",Not Reported,37.339386,-121.894955
+4,3,7,"San Jose, CA",Not Reported,37.339386,-121.894955
+5,3,7,"San Jose, CA",Female,37.339386,-121.894955
+5,3,7,"San Jose, CA",Male,37.339386,-121.894955
+2,4,5,"San Mateo, CA",Not Reported,37.562992,-122.325525
+4,3,5,"San Mateo, CA",Male,37.562992,-122.325525
+2,3,7,"Santa Clara, CA",Male,37.354108,-121.955236
+3,4,7,"Santa Clara, CA",Female,37.354108,-121.955236
+3,4,7,"Santa Clara, CA",Male,37.354108,-121.955236
+4,2,5,"Santa Clara, CA",Not Reported,37.354108,-121.955236
+4,4,7,"Santa Clara, CA",Male,37.354108,-121.955236
+5,2,1,"Santa Monica, CA",Male,34.019454,-118.491191
+5,3,7,"Santa Monica, CA",Male,34.019454,-118.491191
+2,2,7,"Seattle, WA",Male,47.606209,-122.332071
+2,3,7,"Seattle, WA",Female,47.606209,-122.332071
+2,4,7,"Seattle, WA",Male,47.606209,-122.332071
+2,4,7,"Seattle, WA",Male,47.606209,-122.332071
+2,4,7,"Seattle, WA",Male,47.606209,-122.332071
+2,5,7,"Seattle, WA",Female,47.606209,-122.332071
+2,5,7,"Seattle, WA",Male,47.606209,-122.332071
+2,5,7,"Seattle, WA",Male,47.606209,-122.332071
+3,3,7,"Seattle, WA",Female,47.606209,-122.332071
+3,3,7,"Seattle, WA",Female,47.606209,-122.332071
+3,4,7,"Seattle, WA",Female,47.606209,-122.332071
+3,4,7,"Seattle, WA",Female,47.606209,-122.332071
+3,4,7,"Seattle, WA",Male,47.606209,-122.332071
+3,4,7,"Seattle, WA",Male,47.606209,-122.332071
+3,4,7,"Seattle, WA",Not Reported,47.606209,-122.332071
+3,5,7,"Seattle, WA",Male,47.606209,-122.332071
+3,5,7,"Seattle, WA",Male,47.606209,-122.332071
+4,2,3,"Seattle, WA",Male,47.606209,-122.332071
+4,3,7,"Seattle, WA",Female,47.606209,-122.332071
+4,3,7,"Seattle, WA",Male,47.606209,-122.332071
+4,3,7,"Seattle, WA",Male,47.606209,-122.332071
+4,3,7,"Seattle, WA",Male,47.606209,-122.332071
+4,4,7,"Seattle, WA",Female,47.606209,-122.332071
+4,4,7,"Seattle, WA",Male,47.606209,-122.332071
+4,4,7,"Seattle, WA",Male,47.606209,-122.332071
+4,4,7,"Seattle, WA",Male,47.606209,-122.332071
+4,5,7,"Seattle, WA",Female,47.606209,-122.332071
+4,5,7,"Seattle, WA",Male,47.606209,-122.332071
+5,4,2,"Seattle, WA",Male,47.606209,-122.332071
+5,0,7,"Seattle, WA",Female,47.606209,-122.332071
+5,3,7,"Seattle, WA",Male,47.606209,-122.332071
+5,4,7,"Seattle, WA",Male,47.606209,-122.332071
+5,4,7,"Seattle, WA",Not Reported,47.606209,-122.332071
+5,5,7,"Seattle, WA",Male,47.606209,-122.332071
+5,5,7,"Seattle, WA",Male,47.606209,-122.332071
+5,5,7,"Seattle, WA",Male,47.606209,-122.332071
+5,5,7,"Seattle, WA",Male,47.606209,-122.332071
+5,5,7,"Seattle, WA",Male,47.606209,-122.332071
+4,4,7,"Seattle, WA",Male,47.606209,-122.332071
+3,3,2,"Somerville, MA",Female,42.387597,-71.099497
+4,2,1,"Somerville, MA",Male,42.387597,-71.099497
+4,2,2,"Somerville, MA",Male,42.387597,-71.099497
+5,2,2,"Stanford, CA",Not Reported,37.424106,-122.166076
+2,5,7,"Sunnyvale, CA",Male,37.36883,-122.03635
+4,3,7,"Sunnyvale, CA",Not Reported,37.36883,-122.03635
+4,4,7,"Sunnyvale, CA",Not Reported,37.36883,-122.03635
+5,3,7,"Sunnyvale, CA",Female,37.36883,-122.03635
+5,4,7,"Sunnyvale, CA",Not Reported,37.36883,-122.03635
+5,5,7,"Sunnyvale, CA",Male,37.36883,-122.03635
+5,5,7,"Sunnyvale, CA",Male,37.36883,-122.03635
+5,5,7,"Sunnyvale, CA",Male,37.36883,-122.03635
+5,1,3,"Vashon, WA",Male,47.44732,-122.45985
+4,2,7,"Westford, MA",Female,42.579258,-71.437841
+4,2,7,"Westford, MA",Female,42.579258,-71.437841
+5,3,7,"Westford, MA",Male,42.579258,-71.437841
+5,3,7,"Westford, MA",Male,42.579258,-71.437841
