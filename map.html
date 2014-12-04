@@ -28,11 +28,6 @@ h1{
     </style>
   </head>
   <body>
-  <div id="title">
-
-    <h1><span>Choose City</span></h1>
-    
-  </div>
     <script src="d3.v3.min.js"></script>
     <script src="d3.csv.js"></script>
     <script src="d3.geo.js"></script>
@@ -64,8 +59,8 @@ var circles = svg.append("svg:g")
 var positions = [];
 var Gender = [];
 var will_return = [];
-var salary = [];
 var company = [];
+
 
 //------------------Data end----------------------
 d3.json("us-states.json", function(collection) {
@@ -76,29 +71,10 @@ d3.json("us-states.json", function(collection) {
 });
 
 
+var node;
 
-
-  d3.csv("467_Final_Project_Cleaned_Data.csv", function(city) {
-
-
-    city = city.filter(function(cities) {
-        var location = [cities.lng, cities.lat];
-        positions.push(projection(location));
-        Gender.push(cities.Gender);
-        will_return.push(cities.Will_Return);
-        console.log(cities.Will_Return);
-        salary.push(cities.salary);
-        company.push(cities.company);
-        return true;
-    });
-
-});
-
-
-var pos = [30,60,90,120,150,180,210,240,270,300]
-
-var fill = d3.scale.category10();
-var nodes = d3.range(291).map(function(i) {
+var fill = d3.scale.category20c();
+var nodes = d3.range(100).map(function(i) {
   return {index: i};
 });
 
@@ -108,24 +84,39 @@ var force = d3.layout.force()
     .on("tick", tick)
     .start();
 
+d3.csv("467_Final_Project_Cleaned_Data.csv", function(city) {
 
+    city = city.filter(function(cities) {
+        var location = [+cities.lng, +cities.lat];
+        positions.push(projection(location));
+        Gender.push(+cities.Gender);
+        will_return.push(+cities.Will_Return);
+        company.push(+cities.company);
+        return true;
+    });
 
-var node = svg.selectAll(".node")
+node = svg.selectAll(".node")
     .data(nodes)
   .enter().append("circle")
     .attr("class", "node")
     .attr("cx", function(d) { return 0; })
     .attr("cy", function(d) { return 0; })
-    .attr("r", 4)
-    .style("fill", function(d, i) {
-      if(Gender[i]=="Female")
-        return "red";
-      else return fill(i & 3); 
-
+    .attr("r", function(d,i){ 
+      return company[i];})
+    .style("fill", function(d, i) {return fill(colorpicker(will_return[i],Gender[i]));
    })
-    .style("stroke", function(d, i) { return d3.rgb(fill(i & 3)).darker(2); })
     .call(force.drag)
     .on("mousedown", function() { d3.event.stopPropagation(); });
+
+})
+
+function colorpicker(will,gender)
+{
+  if(will==5) will=4;
+  if(will==0) will=1;
+  var idx=gender*4+will;
+  return idx;
+}
 
 svg.style("opacity", 1e-6)
   .transition()
@@ -136,12 +127,11 @@ d3.select("body")
     .on("mousedown", mousedown);
 
 function tick(e) {
-
+  while(positions.length==0){console.log("wait");}
   // Push different nodes in different directions for clustering.
-  var k = 6 * e.alpha;
   nodes.forEach(function(o, i) {
-    o.y = move(o.y , positions[i][1]);
-    o.x = move(o.x , positions[i][0]);
+    o.x = move(o.x , positions[i][0] );
+    o.y = move(o.y , positions[i][1] );
   });
 
   node.attr("cx", function(d) { return d.x; })
