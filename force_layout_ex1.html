@@ -14,11 +14,104 @@
 var width = 960,
     height = 500;
 
-var fill = d3.scale.category10();
 
 var nodes = d3.range(100).map(function(i) {
   return {index: i};
 });
+
+// load json data
+var data; // a global
+
+d3.json("data.json", function(error, json) {
+  if (error) return console.warn(error);
+  data = json;
+  createVis(data);
+});
+
+
+function createVis(data) {
+  //Constants for the SVG
+  var width = $(window).width()-100,
+    height = $(window).height()-100;
+
+  
+
+  //Set up the force layout
+  var force = d3.layout.force()
+    .charge(-1000) 
+    .size([width, height]);
+
+  //Append a SVG to the body of the html page. Assign this SVG as an object to svg
+  var svg = d3.select("body").append("svg")
+    .attr("width", width)
+    .attr("height", height);
+
+  //Read the data from the mis element 
+  //var mis = document.getElementById('mis').innerHTML;
+  
+  //var graph = JSON.parse(data);
+  var graph = data;
+
+  //Creates the graph data structure out of the json data
+  force.nodes(graph.nodes)
+    .start();
+
+  //Create all the line svgs but without locations yet
+  
+
+  //Do the same with the circles for the nodes - no 
+  //Changed
+  var node = svg.selectAll(".node")
+    .data(graph.nodes)
+    .enter().append("g")
+    .attr("class", "node")
+    .call(force.drag);
+
+  node.append("circle")
+    .attr("r", 20)
+    .style("fill", rgb(50,50,100));
+  
+
+  
+  node.append("text")
+      .attr("dy", ".3em")
+      .style("text-anchor", "middle")
+      .style("font-weight", "400")
+      .style("font-family", "Courier")
+      .style("fill", "white")
+      .style("font-size",10)
+      .text(function(d) { return d.City });
+      
+
+
+
+  //Now we are giving the SVGs co-ordinates - the force layout is generating the co-ordinates which this code is using to update the attributes of the SVG elements
+  force.on("tick", function () {
+  
+    //Changed
+  
+    d3.selectAll("circle").attr("cx", function (d) {
+      return d.x;
+    })
+      .attr("cy", function (d) {
+      return d.y;
+    });
+
+    d3.selectAll("text").attr("x", function (d) {
+      return d.x;
+    })
+      .attr("y", function (d) {
+      return d.y;
+    });
+  
+    //End Changed
+
+  });
+
+}
+
+
+/*
 
 var force = d3.layout.force()
     .nodes(nodes)
@@ -70,5 +163,6 @@ function mousedown() {
   });
   force.resume();
 }
+*/
 
 </script>
