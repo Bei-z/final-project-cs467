@@ -103,19 +103,24 @@ node = svg.selectAll(".node")
     .attr("cy", function(d) { return 0; })
     .attr("r", function(d,i){ 
       return company[i];})
-    .style("fill", function(d, i) {return fill(colorpicker(will_return[i],Gender[i]));
+    .style("fill", function(d, i) {return  colorpicker(will_return[i],Gender[i]);
    })
     .call(force.drag)
     .on("mousedown", function() { d3.event.stopPropagation(); });
 
 })
 
+var colors = [ "#3182bd", "#6baed6", "#9ecae1", "#c6dbef", "#e6550d", "#fd8d3c", "#fdae6b", "#fdd0a2",  "#636363", "#969696", "#bdbdbd", "#d9d9d9"];
+
 function colorpicker(will,gender)
 {
+  will=5-will;
   if(will==5) will=4;
   if(will==0) will=1;
+  will--;
   var idx=gender*4+will;
-  return idx;
+  console.log(idx);
+  return colors[idx];
 }
 
 svg.style("opacity", 1e-6)
