@@ -1,0 +1,285 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <style type="text/css">
+
+#states path {
+  fill: #BAD1FF;
+  stroke: #fff;
+}
+
+
+
+circle {
+  fill: #1947A3;
+  fill-opacity: .8;
+  stroke: #fff;
+}
+
+h1{
+  color: #1947A3;
+  font-family: 'Arial';
+  margin-left: 220px;
+}
+
+
+
+    </style>
+  </head>
+  <body>
+    <script src="d3.v3.min.js"></script>
+    <script src="d3.csv.js"></script>
+    <script src="d3.geo.js"></script>
+    <script src="d3.geom.js"></script>
+    <script>
+
+var w = 640,
+    h = 360;
+
+var size = 200;
+
+var projection = d3.geo.azimuthal()
+    .mode("equidistant")
+    .origin([-98, 38])
+    .scale(700)
+    .translate([320, 180]);
+
+var path = d3.geo.path()
+    .projection(projection);
+
+var svg = d3.select("body").append("svg")
+    .attr("width", w)
+    .attr("height", h);
+
+var states = svg.append("svg:g")
+    .attr("id", "states");
+
+var circles = svg.append("svg:g")
+    .attr("id", "circles");
+//------------------All the data--------------------
+var positions = [];
+var Gender = [];
+var will_return = [];
+var company = [];
+var posss = [];
+
+//------------------Data end----------------------
+d3.json("us-states.json", function(collection) {
+  states.selectAll("path")
+      .data(collection.features)
+    .enter().append("svg:path")
+      .attr("d", path);
+});
+
+
+var node;
+
+var fill = d3.scale.category20c();
+var nodes = d3.range(size).map(function(i) {
+  return {index: i};
+});
+
+// var force = d3.layout.force()
+//     .nodes(nodes)
+//     .size([w, h])
+//     .on("tick", tick)
+//     .start();
+
+for (var i = 0; i < size; i++) {
+  var tmp = [Math.random()*w,Math.random()*h];
+  posss.push(tmp);
+};
+
+d3.csv("467_Final_Project_Cleaned_Data.csv", function(city) {
+    city = city.filter(function(cities) {
+        var location = [+cities.lng, +cities.lat];
+        positions.push(projection(location));
+        Gender.push(+cities.Gender);
+        will_return.push(+cities.Will_Return);
+        company.push(+cities.company);
+        return true;
+    });
+var xx;
+var yy;
+node = svg.selectAll(".node")
+    .data(nodes)
+  .enter().append("circle")
+    .attr("class", "node")
+    .attr("cx", function(d,i) {return posss[i][0]; })
+    .attr("cy", function(d,i) {return posss[i][1]; })
+    .attr("r", function(d,i){ 
+      return company[i];})
+    .style("fill", function(d, i) {return  colorpicker(will_return[i],Gender[i]);
+   })
+    // .call(force.drag)
+    .on("mousedown", function() { d3.event.stopPropagation(); });
+
+})
+
+var colors = [ "#3182bd", "#6baed6", "#9ecae1", "#c6dbef", "#e6550d", "#fd8d3c", "#fdae6b", "#fdd0a2",  "#636363", "#969696", "#bdbdbd", "#d9d9d9"];
+
+function colorpicker(will,gender)
+{
+  will=5-will;
+  if(will==5) will=4;
+  if(will==0) will=1;
+  will--;
+  var idx=gender*4+will;
+  return colors[idx];
+}
+
+svg.style("opacity", 1e-6)
+  .transition()
+    .duration(500)
+    .style("opacity", 1);
+
+d3.select("body")
+    .on("mousedown", mousedown);
+
+function tick(e) {
+  while(positions.length==0){console.log("wait");}
+  // Push different nodes in different directions for clustering.
+  nodes.forEach(function(o, i) {
+    o.x = move(o.x , positions[i][0] );
+    o.y = move(o.y , positions[i][1] );
+  });
+
+  var q = d3.geom.quadtree(nodes),
+    i = 0,
+    n = nodes.length;
+
+  while (++i < n) q.visit(collide(nodes[i]));
+
+  node.attr("cx", function(d) { return d.x; })
+      .attr("cy", function(d) { return d.y; });
+}
+
+function mousedown() {
+  posss.forEach(function(o, i) {
+    o[0] += (Math.random() - .5) * 4000;
+    o[1] += (Math.random() - .5) * 4000;
+  });
+  // force.resume();
+}
+
+function move(node, dest){
+  var diff=dest-node;
+  if(diff>200)
+  {
+    return node+160;
+  }
+  else if(diff<-200)
+  {
+    return node-160;
+  }
+  else if(diff>50)
+  {
+    return node+40;
+  }
+  else if(diff<-50)
+  {
+    return node-40;
+  }
+  else if(diff>20)
+  {
+    return node+10;
+  }
+  else if(diff<-20)
+  {
+    return node-10;
+  }
+  else 
+    return node;
+}
+
+
+function collide(node) {
+  var r = node.radius + 16,
+      nx1 = node.x - r,
+      nx2 = node.x + r,
+      ny1 = node.y - r,
+      ny2 = node.y + r;
+  return function(quad, x1, y1, x2, y2) {
+      if (quad.point && (quad.point !== node)) {
+      var x = node.x - quad.point.x,
+          y = node.y - quad.point.y,
+          l = Math.sqrt(x * x + y * y),
+          r = node.radius + quad.point.radius;
+      if (l < r) {
+        l = (l - r) / l * .5;
+        node.x -= x *= l;
+        node.y -= y *= l;
+        quad.point.x += x;
+        quad.point.y += y;
+      }
+    }
+    return x1 > nx2 || x2 < nx1 || y1 > ny2 || y2 < ny1;
+  };
+}
+
+
+function pong(ind)
+{
+  for(var i = 0; i<size;i++)
+  {
+    if(i!=ind)
+    {
+      var x = posss[ind][0] - posss[i][0];
+      var y = posss[ind][1] - posss[i][1];
+      l = Math.sqrt(x * x + y * y);
+      if(l<6)
+      {
+        if(l<2)
+        {
+          posss[ind][0] -= 2;
+          posss[ind][1] -= 2;
+          posss[i][0] += 2;
+          posss[i][1] += 2;
+        }
+        posss[ind][0] -= 2*x;
+        posss[ind][1] -= 2*y;
+        posss[i][0] += 2*x;
+        posss[i][1] += 2*y;
+      }
+
+    }
+  }
+}
+
+  
+window.setInterval(function(){
+  while(positions.length==0){console.log("wait");}
+  // Push different nodes in different directions for clustering.
+
+  while(posss.length==0){console.log("wait");}
+  // nodes.forEach(function(o, i) {
+  //   o.x = move(o.x , positions[i][0] );
+  //   o.y = move(o.y , positions[i][1] );
+  // });
+
+  // var q = d3.geom.quadtree(nodes),
+  //   i = 0,
+  //   n = nodes.length;
+
+  // while (++i < n) q.visit(collide(nodes[i]));
+
+svg.selectAll("circle")
+      .transition()
+      .duration(100)
+      .attr("cx", function(d,i) { 
+        pong(i);
+        posss[i][0] = move(posss[i][0],positions[i][0]);
+        return posss[i][0]; })
+      .attr("cy", function(d,i) { 
+        posss[i][1] = move(posss[i][1],positions[i][1]);
+        return posss[i][1]; });
+  
+  // node.attr("cx", function(d) { return d.x; })
+  //     .attr("cy", function(d) { return d.y; });
+      
+  /// call your function here
+}, 10);
+    </script>
+  </body>
+</html>
